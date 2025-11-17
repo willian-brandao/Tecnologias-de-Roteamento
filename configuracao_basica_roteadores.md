@@ -43,6 +43,8 @@ Conhecida como  memória de leitura apenas
 * conectam o roteador à rede local ou remota para as funções de entrada e saída de pacotes de dados. Ex: seriais, ethernet;
 * podem ficar fixadas na placa-mãe ou em um módulo separado e conectado ao barramento (off-board).
 
-Os roteadores possuem as interfaces de rede local (LAN) e de redes remotas (WAN), emnbora sejam usados também para segmentação de redes locais, o objetivo principal do dispositivo é acessar redes WAN. As tecnologias de redes WAN para que os roteadores se conectem entre si por meio de conexõe seriais, ISDN e outras. 
+Os roteadores possuem as interfaces de rede local (LAN) e de redes remotas (WAN), emnbora sejam usados também para segmentação de redes locais, o objetivo principal do dispositivo é acessar redes WAN. As tecnologias de redes WAN para que os roteadores se conectem entre si por meio de conexõe seriais, ISDN[^1] e outras. 
 
-*ISDN: Sigla para Integrated Services Digital Network  ou Rede Digital de Serviços Integrados. A tecnologia é voltada para telecomunicações, permitindo transmissão de voz, dados e vídeo por meio de rede telefônica tradicional.*
+[^1]: *ISDN: Sigla para Integrated Services Digital Network  ou Rede Digital de Serviços Integrados. A tecnologia é voltada para telecomunicações, permitindo transmissão de voz, dados e vídeo por meio de rede telefônica tradicional.*
+
+
