@@ -20,3 +20,29 @@ Chamada de DRAM ou RAM dinâmica ou memória de trabalho, tem as seguintes carac
 *  mantém filas para armazenamento temporário de pacotes, que podem ser utilizadas em priorização de tráfego;
 *  memória RAM é um tipo volátil, ou seja, perde todo o seu conteúdo quando o roteador é desligado ou reiniciado.
 
+## Memória NVRAM
+
+Chamada de memória de acesso aleatório não volátil
+
+* armazena o arquivo de configuraçã que será utilizadoo somente no processo de inicialização (startup config), também pode-se chamar de arquivo de backup;
+* pode armazenar várias versões de software do IOS. Nesse caso o administrador da rede pode escolher qual das versões do IOS o equipamento venha a utilizar;
+* Permite que o software seja atualizado sem remover nem substituir chips do processador;
+* Retém seu conteúdo quando roteador é desligado ou reiniciado, pois também é uma memória não volátil;
+* É um tipo de ROM programável, apagável eletronicamente (EEPROM).
+
+## Memória ROM
+
+Conhecida como  memória de leitura apenas
+
+* mantém instruções que definem o auteste realizado na inicialização do roteador, como conhecemos pelo nome POST ( Power-on self test);
+* Armazena o programa de bootstrap e softwares básicos do sistema operacional de rede, responsáveis pelo boot e pela manutenção do dispositivo;
+* Requer substituição de chips plugáveis na placa-mãe para as atualizações de software, pois estes geralmente são gravados em memória de acesso não tão fácil.
+
+## Interfaces Físicas
+
+* conectam o roteador à rede local ou remota para as funções de entrada e saída de pacotes de dados. Ex: seriais, ethernet;
+* podem ficar fixadas na placa-mãe ou em um módulo separado e conectado ao barramento (off-board).
+
+
+
+
