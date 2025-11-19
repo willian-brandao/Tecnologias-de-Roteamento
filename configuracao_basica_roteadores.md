@@ -116,3 +116,29 @@ Para a resolução de problemas, também é preferível e recomendado utilizar a
 
 ![[Figura 4 – Acessando inicialmente o Roteador.png]]
 
+A porta console é uma porta de gerenciamento utilizada para fornecimento de acesso fora de banda ao roteador. Sendo utilizada principalmente na configuração inicial do roteador, no monitoramento do dispositivo e em procedimentos de recuperação de senhas e desastres. 
+
+Um cabo de console, ou também cabo rollover e um adaptador RJ-45/db-9 são utilizados para a conexão a porta de console a um computador. Uma vez realizada a conexão física, o computador ou terminal de acesso precisa suportar a emulação de terminal VT100. Geralmente são utilizados softwares de emulação de terminal, tais como o HyperTerminal ou Putty.
+
+Para conectar o computador a um roteador:
+
+Conecte o conector RJ-45 do cabo rollover à porta de console do roteador;
+
+Conecte a outra ponta do cabo rollover ao adaptador RJ-45/DB-9. Em alguns cabos de console o adaptador DB-9 já vem adicionado, não necessitando de adaptadores;
+
+Conecte o adaptador DB-9 fêmea a um computador, caso o cabo não tenha já esse adaptador acoplado;
+
+Acesse o software de emulação de terminal do computador (Putty, TeraTerminal, etc...), e configure:
+
+A porta COM correta;
+
+* 9600 baud;
+
+* 8 bits de dados;
+
+* Sem paridade;
+
+* 1 bit de parada;
+
+* Sem fluxo de controle.
+
