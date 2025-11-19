@@ -93,5 +93,26 @@ Alguns protocolos da camada física WAN que os roteadores suportam:
 * xDSL (ADSL, SDSL, HDSL, etc.);
 * SONET (OC-3, OC-2, OC-48, OC-192).
 
-Exemplos de protocolos e padrões da camada de enlace da WAN
+Exemplos de protocolos e padrões da camada de enlace da WAN:
+
+* High-Level Data Link Control (HDLC);
+* Frame Relay;
+* Point-to-Point Protocol (PPP);
+* Synchronous Data Link Control (SDLC);
+* Serial Line Internet Protocol (SLIP);
+* X.25;
+* ATM.
+
+## Acessando o Roteador
+
+A porta console (COM) e a porta auxiliar (AUX) que estão inseridas no roteador são portas de acesso para gerenciamento, ou seja, essas portas apesar de parecidas não foram concebidas como portas de rede, como é o caso da porta ethernet. A porta console é a primeira forma de configuração inicial em um roteador ou switch e porta AUX para poder ser acessada deverá ser antes pré-configurada. É importante lembrar que não são todos os modelos de roteadores que possuem porta AUX.
+
+Quando o roteador entra em operação pela primeira vez, nenhum parâmetro da rede está devidamente configurado. Nesse caso, o roteador não pode comunicar-se com nenhuma rede ou dispositivo. Para prepará-lo para a inicialização e funcionamento, são necessárias configurações iniciais, para isso conecte um terminal ASCII RS-232, ou um computador que emule um terminal ASCII, à porta de console do sistema. Assim, é possível inserir os comandos de configuração inicial para acesso ao roteador. 
+
+Além da conectividade física através dessa porta seria assíncrona é também necessário a utilização de uma aplicação de emulação de terminal, como por exemplo, o TeraTerm, Putty e outros, que também possuem configurações próprias. Uma vez acessado e inserido a configuração  inicial do roteador através da porta console e depois pela porta auxiliar, o roteador poderá ser conectado à rede para fins de acesso, configuração e gerenciamento. 
+Uma vez aplicada configurações de acesso padrão, o roteador também pode ser configurado remotamente, através da aplicação Telnet em uma rede IP, ou discando para um modem conectado à porta auxiliar do roteador.
+
+Para a resolução de problemas, também é preferível e recomendado utilizar a interface ou porta de console ao invés da interface ou porta auxiliar. Isso porque ela apresenta, de forma padrão, as mensagens de inicialização, depuração e de possíveis erros de hardware ou software do roteador no processo de boot. Esta porta também pode ser utilizada quando os serviços, o que é muito útil nos procedimentos de recuperação de desastres e recuperação de senhas. 
+
+![[Figura 4 – Acessando inicialmente o Roteador.png]]
 
